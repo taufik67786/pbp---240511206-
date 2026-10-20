@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Sederhana</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background-color: white;
+        }
+
+        nav h2 {
+            color: #2563eb;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero span {
+            color: #2563eb;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* About Section */
+        .about {
+            background-color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .about h2 {
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e293b;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 5px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>MyWebsite</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#contact">Kontak</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Selamat Datang di <span>Website Kami</span></h1>
+
+        <p>
+            Kami membantu Anda menemukan solusi digital
+            yang sederhana, modern, dan mudah digunakan.
+        </p>
+
+        <a href="#about" class="btn">Mulai Sekarang</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Tentang Kami</h2>
+
+        <p>
+            Website ini dibuat untuk memberikan informasi,
+            memperkenalkan layanan, dan membantu pengunjung
+            mengenal lebih jauh tentang kami.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2026 MyWebsite. Semua hak dilindungi.</p>
+    </footer>
+
+</body>
+</html>

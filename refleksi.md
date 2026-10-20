@@ -1,0 +1,7 @@
+# Refleksi Pembelajaran PBP Pertemuan 1
+
+Menurut saya, platform yang paling menarik untuk dipelajari adalah platform Web. Hal ini karena aplikasi Web dapat diakses melalui browser tanpa harus memasang aplikasi secara khusus pada setiap perangkat. Selain itu, pengembangan Web menggunakan teknologi seperti HTML, CSS, dan JavaScript yang dapat digunakan untuk membuat halaman interaktif. Saya ingin mempelajari cara membangun aplikasi Web yang bermanfaat dan mudah digunakan oleh banyak orang.
+
+Tantangan terbesar yang saya hadapi saat melakukan setup environment adalah memastikan Git, Node.js, NPM, dan Java JDK terpasang serta dapat dijalankan melalui terminal. Saya juga mengalami kesulitan ketika menghubungkan repository lokal dengan GitHub, terutama saat mengatur identitas Git dan melakukan commit serta push. Dari kendala tersebut, saya belajar bahwa penggunaan Git memerlukan konfigurasi awal yang benar sebelum file dapat dikirim ke repository daring.
+
+Untuk mengatasi tantangan tersebut, saya akan mempelajari kembali perintah dasar Git, membaca dokumentasi resmi dari setiap tools, dan berlatih menggunakan terminal secara bertahap. Jika mengalami error, saya akan membaca pesan kesalahan dengan teliti dan mencari solusi berdasarkan penyebabnya. Saya juga akan memastikan setiap file tugas tersimpan dengan benar, melakukan commit secara teratur, serta memeriksa repository GitHub setelah melakukan push. Dengan cara ini, saya berharap dapat mengembangkan keterampilan pemrograman dan mengelola proyek dengan lebih baik.
